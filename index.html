@@ -6,6 +6,69 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <script type="text/javascript">
+    console.log("Hello World!");
+
+    // Variables- uses the "var" keyword
+        //Strings
+        var username = "cctenis23";
+        //Numbers
+        var age= 90;
+        //Booleans
+        var isAdmin = true;
+        //Arrays - Collection of like or similar elements
+        var students = ["Larry", "Moe", "Curly"];
+        var ages = [35, 42, 79];
+        //Objects (going over today 6.4.20)
+
+    //Functions
+        //Built in functions
+            //confirm - returns a boolean
+            var readyToEat = confirm("Are you ready to eat?");
+            //prompt- returns a string
+            var menu = prompt("What would you like to eat");
+            //alert - no return value
+            alert("I'm just executing code!")
+            console.log("No return value here either!")
+        // Custom functions
+            // Definition
+                // function keyword
+                //function name
+                // parameters
+                // code to execute
+            function sayHello(){ //void function - 0 parameters whats in ()
+             //(void means does not return something)
+                console.log("Hello");
+            }
+
+            function sayHelloName(name){ //void function - 1 parameter (name)
+                console.log("Hello, " + name);
+            }
+
+            // Call it- to execute code
+            sayHello ();
+            sayHelloName("Jonathan");
+            sayHelloName("Bob");
+                //Bob is the argument- Bob will replace name
+                //first time run, it will run Jonathan, second time run will run Bob,
+                //if left blank for third, it would run undefined.
+        //Appendix
+            //Argument
+                //When we pass something into the parenthesis of a function call, we call that an argument.
+            // Parameter
+                // A temporary variable that we define inside a function definition.
+    //Conditional Statements (If/Else)
+
+    //Loops (Iterate, commonly over arrays)
+
+    //Appendix
+        //CamelCase is the naming convention that allows us to create consistent variable names.
+            //camelCase- first letter is lowercase. 
+            // Additional words are capitalized. No spaces or underscores.
+            //Alternatives:
+                //ALL_CAPS- typically reserved constants.
+                //TitleCase- typically reserved for constructors and classes
+
+    </script>
 </body>
 </html>
